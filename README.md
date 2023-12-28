@@ -15,7 +15,6 @@ The overall game settings can be adjusted in `data/settings.json`.
 |----------------------------|---------|------------------------------------------------------------------------------------------------------------------------|
 | `numberOfChallengesToPlay` | 15      | Number of challenges to be played in a game                                                                            |
 | `randomizeChallenges`      | true    | Whether to select the next challenge at random (or using fixed order)                                                  |
-| `playGameJingles`          | false   | Play original game jingles when starting the game, etc.  -  Not implemented                                            |
 | `language`                 | en      | Which language to use for the game interface. This does not affect the content of the challenges. Defaults to English. |
 
 ## Project Setup
