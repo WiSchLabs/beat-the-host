@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Uno",
+    "description": "Play a round of Uno.",
+    "category": "cards"
+  },
+  {
+    "id": 2,
+    "title": "How much is the fish?",
+    "description": "- How many Scooter songs are there?\n- How many movies did Keanu Reeves play in?\n- How many words are in the movie script for Ghostbusters?",
+    "category": "estimation"
+  },
+  {
+    "id": 3,
+    "title": "301",
+    "description": "Darts. 301. No double-out.",
+    "category": "games"
+  }
+]

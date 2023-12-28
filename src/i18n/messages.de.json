@@ -1,0 +1,14 @@
+{
+    "confetti": "Konfetti",
+    "newGame": "Neues Spiel",
+    "notEnoughChallenges": "Es sind nicht genug Spiele konfiguriert.",
+    "numberOfChallengesToPlay": "Anzahl der zu spielenden Spiele",
+    "numberOfChallengesConfigured": "Anzahl der konfigurierten Spiele",
+    "players": "Spieler",
+    "pointsToWin": "Punkte zum Sieg",
+    "select": "Auswählen",
+    "settings": "Einstellungen",
+    "totalPoints": "Gesamtpunkte",
+    "welcome": "Willkommen",
+    "won": "gewinnt"
+}
