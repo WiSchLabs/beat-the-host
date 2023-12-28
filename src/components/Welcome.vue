@@ -43,7 +43,8 @@ export default {
   },
   methods: {
     startGame() {
-      this.$store.commit('selectNextChallenge')
+      const nextChallenge = this.$store.getters.selectNextChallenge
+      this.$store.commit("setNextChallenge", nextChallenge)
     },
   },
 };

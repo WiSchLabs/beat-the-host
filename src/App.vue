@@ -1,6 +1,3 @@
-<script setup>
-</script>
-
 <template>
   <header>
     <img alt="logo" class="logo" src="./assets/BeatTheHost.png" width="300" height="145" />
@@ -28,16 +25,16 @@ export default {
     Victory,
   },
   computed: {
-    currentChallenge () {
+    currentChallenge() {
       return this.$store.getters.getCurrentChallenge
     },
-    currentChallengeNumber () {
+    currentChallengeNumber() {
       return this.$store.getters.getCurrentChallengeNumber
     },
     pointsToWin() {
       return this.$store.getters.getPointsToWin
     },
-    getWinningPlayer () {
+    getWinningPlayer() {
       const players = this.$store.getters.getPlayers
       for(let player of players){
         if (player.score >= this.pointsToWin){
@@ -46,8 +43,6 @@ export default {
       }
       return null
     }
-  },
-  methods: {
   },
 };
 </script>

@@ -46,6 +46,16 @@ const store = createStore({
                 // If odd number of totalPoints, get the absolute majority by rounding up
                 return Math.ceil(halfOfPoints);
             }
+        },
+        selectNextChallenge(state) {
+            let challenge = state.unplayedChallenges[0]
+            if (state.settings.randomizeChallenges) {
+                challenge = state.unplayedChallenges[Math.floor(Math.random()*state.challenges.length)];
+            }
+            return challenge
+        },
+        getPlayersCanSwapChallenges(state) {
+            return state.settings.playersCanSwapChallenges
         }
     },
     mutations:{
@@ -59,13 +69,6 @@ const store = createStore({
                 return i.id === challenge.id;
             })
             state.unplayedChallenges.splice(index, 1)
-        },
-        selectNextChallenge(state) {
-            let challenge = state.unplayedChallenges[0]
-            if (state.settings.randomizeChallenges) {
-                challenge = state.unplayedChallenges[Math.floor(Math.random()*state.challenges.length)];
-            }
-            this.commit("setNextChallenge", challenge)
         },
         updatePlayerScore(state, playerId) {
             for (const player of state.players) {

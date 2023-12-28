@@ -1,5 +1,6 @@
 {
   "numberOfChallengesToPlay": 3,
   "randomizeChallenges": true,
-  "language": "en"
+  "language": "en",
+  "playersCanSwapChallenges": true
 }

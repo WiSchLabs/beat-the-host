@@ -8,6 +8,7 @@
     <div class="buttons">
       <button v-for="player in players" :key="player.id" @click="setPlayerWonThisChallenge(player)">{{ player.name }} {{ $t('won') }}</button>
     </div>
+    <button v-if="playersCanSwapChallenges" @click="swapChallenge()" class="swapButton">{{ $t('swapCurrentChallenge') }}</button>
   </div>
 </template>
 
@@ -22,12 +23,20 @@ export default {
     },
     currentChallengeNumber() {
       return this.$store.getters.getCurrentChallengeNumber
+    },
+    playersCanSwapChallenges() {
+      return this.$store.getters.getPlayersCanSwapChallenges
     }
   },
   methods: {
     setPlayerWonThisChallenge(player) {
       this.$store.commit('updatePlayerScore', player.id)
-      this.$store.commit('selectNextChallenge')
+      const nextChallenge = this.$store.getters.selectNextChallenge
+      this.$store.commit("setNextChallenge", nextChallenge)
+    },
+    swapChallenge() {
+      const nextChallenge = this.$store.getters.selectNextChallenge
+      this.$store.commit('swapCurrentChallenge', nextChallenge)
     },
   },
 };
@@ -59,6 +68,14 @@ export default {
 }
 .buttons button:not(:first-child) {
   margin-left: auto;
+}
+.swapButton {
+  margin-top: 3rem;
+  margin-left: auto;
+  width: 100%;
+  height: 2rem;
+  padding: 0;
+  background-color: lightgray;
 }
 
 .details {
