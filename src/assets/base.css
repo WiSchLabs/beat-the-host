@@ -47,8 +47,8 @@
     --color-border: var(--vt-c-divider-dark-2);
     --color-border-hover: var(--vt-c-divider-dark-1);
 
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-heading: var(--vt-c-black-soft);
+    --color-text: var(--vt-c-black);
   }
 }
 
@@ -64,7 +64,7 @@ body {
   min-height: 100vh;
   color: var(--color-text);
   background-color: var(--color-background);
-  background-image: url('src/assets/background.jpg');
+  background-image: url('background.jpg');
   background-position: center;
   background-size: cover;
   transition:
