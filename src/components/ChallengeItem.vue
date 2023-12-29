@@ -8,13 +8,19 @@
     <div class="buttons">
       <button v-for="player in players" :key="player.id" @click="setPlayerWonThisChallenge(player)">{{ player.name }} {{ $t('won') }}</button>
     </div>
-    <button v-if="playersCanSwapChallenges" @click="swapChallenge()" class="swapButton">{{ $t('swapCurrentChallenge') }}</button>
+    <button v-if="playersCanSwapChallenges" @click="swapChallenge()" class="swapButton" :disabled="unplayedChallenges.length <= (numberOfChallengesToPlay - currentChallengeNumber)">{{ $t('swapCurrentChallenge') }}</button>
   </div>
 </template>
 
 <script>
 export default {
   computed: {
+    unplayedChallenges() {
+      return this.$store.getters.getUnplayedChallenges
+    },
+    numberOfChallengesToPlay() {
+      return this.$store.getters.getNumberOfChallengesToPlay
+    },
     currentChallenge() {
       return this.$store.getters.getCurrentChallenge
     },
@@ -76,6 +82,10 @@ export default {
   height: 2rem;
   padding: 0;
   background-color: lightgray;
+}
+.swapButton:disabled {
+  cursor: not-allowed;
+  color: darkgrey;
 }
 
 .details {
