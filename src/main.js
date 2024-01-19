@@ -18,7 +18,7 @@ const initialState = {
     unplayedChallenges: challenges,
 };
 const store = createStore({
-    state: initialState,
+    state: JSON.parse(localStorage.getItem('store')) || initialState,
     getters: {
         getPlayers: (state) => state.players,
         getChallenges: (state) => state.challenges,
@@ -33,7 +33,7 @@ const store = createStore({
             return lastChallengeWon
         },
         getNumberOfChallengesToPlay: (state) => state.settings.numberOfChallengesToPlay,
-        getUnplayedChallenges: (state) => state.settings.unplayedChallenges,
+        getUnplayedChallenges: (state) => state.unplayedChallenges,
         getTotalPoints(state) {
             return (state.settings.numberOfChallengesToPlay + 1) * state.settings.numberOfChallengesToPlay / 2
         },
@@ -80,6 +80,11 @@ const store = createStore({
         },
     }
 })
+
+store.subscribe((mutation, state) => {
+    // Store the state object as a JSON string when it's changed
+    localStorage.setItem('store', JSON.stringify(state));
+});
 
 import messagesEN from './i18n/messages.en.json';
 import messagesDE from './i18n/messages.de.json';
