@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Quiz",
+    "description": "Auf der Playstation wird eine Runde 'Wissen ist Macht' gespielt.",
+    "category": "knowledge"
+  },
+  {
+    "id": 2,
+    "title": "NetQuiz",
+    "description": "Auf Netflix wird eine Runde 'Triviaverse' gespielt.",
+    "category": "knowledge"
+  },
+  {
+    "id": 3,
+    "title": "301",
+    "description": "Dart. 301 Rückwärts. Ohne double-out.",
+    "category": "games"
+  },
+  {
+    "id": 4,
+    "title": "Kartenduell",
+    "description": "Jeder Spieler enthält 11 Karten mit aufsteigenden Werten. Pro Runde wählt jeder Spieler eine der Karten und legt sie verdeckt vor sichauf den Tisch. Die höhere Karte gewinnt die Runde.",
+    "category": "cards"
+  },
+  {
+    "id": 5,
+    "title": "Postleitzahl",
+    "description": "Die Spieler würfeln abwechselnd, bis sich eine 5-stellige PLZ ergibt. Auf Google Maps zoomen die Spieler dann auf eine Stelle in Deutschland. Beim ersten Klick in die Karte ist die Stelle fixiert.\nWer näher an der erwürfelten PLZ ist, gewinnt den Durchgang. Es werden 5 Durchgänge gespielt.",
+    "category": "estimation"
+  },
+  {
+    "id": 6,
+    "title": "Shuffleboard",
+    "description": "Es werden 5 Runden mit je 4 Scheiben (Pokerchips) gespielt. Die Scheibe wird versucht mittels schnipsen in vordefinierte Punktezonen (1, 2, 3) am anderen Ende des Tischen zu bringen. Wer mehr Punkte erzielt, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 7,
+    "title": "Wasserbad",
+    "description": "Ein Topf wird zu 3/4 mit Wasser gefüllt und eine leere Schale hinringelegt. Jeder Spieler hat Pokerchips, wovon er beliebig viele in die Schale legen kann. Wer zuletzt einen Stein in die Schale gelegt hat, bevor sie untergeht, hat verloren.",
+    "category": "skill"
+  },
+  {
+    "id": 8,
+    "title": "Frantic",
+    "description": "Eine Runde Frantic.",
+    "category": "cards"
+  },
+  {
+    "id": 9,
+    "title": "How much is the fish?",
+    "description": "- Wie viele Songs hat Scooter veröffentlicht?\n- In wie vielen Filmen hat Keanu Reeves mitgespielt?\n- Wie viele Flaschen Bier verkauft Beck's jährlich?\n- Wie viele Liter Wasser passen in das Olympische Schwimmbad in Berlin?\n- Wie viele Wörter hat das Drehbuch für Ghostbusters?",
+    "category": "estimation"
+  },
+  {
+    "id": 10,
+    "title": "Langsam fahren",
+    "description": "Es wird eine ca 3-5m lange Strecke ausgesucht.\nWer diese Strecke mit dem Fahrrad langsamer zurücklegen kann, ohne mit dem Körper den Boden zu berühren gewinnt.\nJeder hat 3 Versuche.",
+    "category": "sports"
+  },
+  {
+    "id": 11,
+    "title": "Frisbee-Zielwerfen",
+    "description": "Mit der Frisbee in den Park. Es wird pro Durchgang ein neues Ziel definiert. Der Startpunkt bleibt gleich. Jeder Spieler hat pro Durchgang einen Versuch. Wer näher dran ist, gewinnt den Durchgang.\nWer als erstes 3 Durchgänge gewonnen hat, gewinnt das Spiel.",
+    "category": "sports"
+  },
+  {
+    "id": 12,
+    "title": "Wasserträger",
+    "description": "Die Spieler kriegen je eine volle Flasche Wasser pro Hand und müssen diese mit seitlich ausgestreckten Armen halten. Wer länger durchhält, gewinnt.",
+    "category": "sports"
+  },
+  {
+    "id": 13,
+    "title": "Der rollende Punkt",
+    "description": "Im Flur werden 3 Zielzonen mit 1, 2 und 3 Punkten definiert. Der Spieler versucht 3 Tischtennisbälle in die Punktezonen zu rollen. Wer mehr Punkte in einem Durchgang macht, gewinnt den Durchgang. Wer zuerst 3 Durchgänge für sich entschieden hat, gewinnt das Spiel.",
+    "category": "skill"
+  },
+  {
+    "id": 14,
+    "title": "Tageszähler",
+    "description": "Die Spieler schätzen die Anzahl an Tagen seit den folgenden Ereignissen bis heute:\n - Sonde Voyager 1 wird gestartet\n- Die erste Folge Star Trek läuft im TV\n- Das Spiel Portal wird released\n- Der erste Film kommt auf VHS raus\n- Gründung der Brauerei Beck's",
+    "category": "estimation"
+  },
+  {
+    "id": 15,
+    "title": "Würfeln",
+    "description": "Man ist solange dran bis man entweder die gewürfelten Punkte sichert oder eine 6 wirft. Bei einer 6 verfallen die in dieser Runde gewürfelten Punkte. Wer zuerst mindestens 50 Punkte erreicht gewinnt das Spiel.",
+    "category": "cards"
+  },
+  {
+    "id": 16,
+    "title": "Worms",
+    "description": "Eine Runde Worms am PC.",
+    "category": "games"
+  }
+]

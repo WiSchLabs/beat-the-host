@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img alt="logo" class="logo" src="./assets/BeatTheHost.png" width="300" height="145" />
+    <img alt="logo" class="logo" src="./assets/SchlagDenWittig.png" width="300" height="145" />
     <scoreboard/>
   </header>
 

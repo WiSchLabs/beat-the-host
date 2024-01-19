@@ -1,20 +1,350 @@
 [
   {
     "id": 1,
-    "title": "Uno",
-    "description": "Play a round of Uno.",
-    "category": "cards"
+    "title": "Quiz",
+    "description": "Auf der Playstation wird eine Runde 'Wissen ist Macht' gespielt.",
+    "category": "knowledge"
   },
   {
     "id": 2,
-    "title": "How much is the fish?",
-    "description": "- How many Scooter songs are there?\n- How many movies did Keanu Reeves play in?\n- How many words are in the movie script for Ghostbusters?",
-    "category": "estimation"
+    "title": "NetQuiz",
+    "description": "Auf Netflix wird eine Runde 'Triviaverse' gespielt.",
+    "category": "knowledge"
   },
   {
     "id": 3,
     "title": "301",
-    "description": "Darts. 301. No double-out.",
+    "description": "Dart. 301 Rückwärts. Ohne double-out.",
     "category": "games"
+  },
+  {
+    "id": 4,
+    "title": "Kartenduell",
+    "description": "Jeder Spieler enthält 11 Karten mit aufsteigenden Werten. Pro Runde wählt jeder Spieler eine der Karten und legt sie verdeckt vor sichauf den Tisch. Die höhere Karte gewinnt die Runde.",
+    "category": "cards"
+  },
+  {
+    "id": 5,
+    "title": "Postleitzahl",
+    "description": "Die Spieler würfeln abwechselnd, bis sich eine 5-stellige PLZ ergibt. Auf Google Maps zoomen die Spieler dann auf eine Stelle in Deutschland. Beim ersten Klick in die Karte ist die Stelle fixiert.\nWer näher an der erwürfelten PLZ ist, gewinnt den Durchgang. Es werden 5 Durchgänge gespielt.",
+    "category": "estimation"
+  },
+  {
+    "id": 6,
+    "title": "Shuffleboard",
+    "description": "Es werden 5 Runden mit je 4 Scheiben (Pokerchips) gespielt. Die Scheibe wird versucht mittels schnipsen in vordefinierte Punktezonen (1, 2, 3) am anderen Ende des Tischen zu bringen. Wer mehr Punkte erzielt, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 7,
+    "title": "Wasserbad",
+    "description": "Ein Topf wird zu 3/4 mit Wasser gefüllt und eine leere Schale hinringelegt. Jeder Spieler hat Pokerchips, wovon er beliebig viele in die Schale legen kann. Wer zuletzt einen Stein in die Schale gelegt hat, bevor sie untergeht, hat verloren.",
+    "category": "skill"
+  },
+  {
+    "id": 8,
+    "title": "Frantic",
+    "description": "Eine Runde Frantic.",
+    "category": "cards"
+  },
+  {
+    "id": 9,
+    "title": "How much is the fish?",
+    "description": "- Wie viele Songs hat Scooter veröffentlicht?\n- In wie vielen Filmen hat Keanu Reeves mitgespielt?\n- Wie viele Flaschen Bier verkauft Beck's jährlich?\n- Wie viele Liter Wasser passen in das Olympische Schwimmbad in Berlin?\n- Wie viele Wörter hat das Drehbuch für Ghostbusters?",
+    "category": "estimation"
+  },
+  {
+    "id": 10,
+    "title": "Langsam fahren",
+    "description": "Es wird eine ca 3-5m lange Strecke ausgesucht.\nWer diese Strecke mit dem Fahrrad langsamer zurücklegen kann, ohne mit dem Körper den Boden zu berühren gewinnt.\nJeder hat 3 Versuche.",
+    "category": "sports"
+  },
+  {
+    "id": 11,
+    "title": "Frisbee-Zielwerfen",
+    "description": "Mit der Frisbee in den Park. Es wird pro Durchgang ein neues Ziel definiert. Der Startpunkt bleibt gleich. Jeder Spieler hat pro Durchgang einen Versuch. Wer näher dran ist, gewinnt den Durchgang.\nWer als erstes 3 Durchgänge gewonnen hat, gewinnt das Spiel.",
+    "category": "sports"
+  },
+  {
+    "id": 12,
+    "title": "Wasserträger",
+    "description": "Die Spieler kriegen je eine volle Flasche Wasser pro Hand und müssen diese mit seitlich ausgestreckten Armen halten. Wer länger durchhält, gewinnt.",
+    "category": "sports"
+  },
+  {
+    "id": 13,
+    "title": "Der rollende Punkt",
+    "description": "Im Flur werden 3 Zielzonen mit 1, 2 und 3 Punkten definiert. Der Spieler versucht 3 Tischtennisbälle in die Punktezonen zu rollen. Wer mehr Punkte in einem Durchgang macht, gewinnt den Durchgang. Wer zuerst 3 Durchgänge für sich entschieden hat, gewinnt das Spiel.",
+    "category": "skill"
+  },
+  {
+    "id": 14,
+    "title": "Tageszähler",
+    "description": "Die Spieler schätzen die Anzahl an Tagen seit den folgenden Ereignissen bis heute:\n - Sonde Voyager 1 wird gestartet\n- Die erste Folge Star Trek läuft im TV\n- Das Spiel Portal wird released\n- Der erste Film kommt auf VHS raus\n- Gründung der Brauerei Beck's",
+    "category": "estimation"
+  },
+  {
+    "id": 15,
+    "title": "Würfeln",
+    "description": "Man ist solange dran bis man entweder die gewürfelten Punkte sichert oder eine 6 wirft. Bei einer 6 verfallen die in dieser Runde gewürfelten Punkte. Wer zuerst mindestens 50 Punkte erreicht gewinnt das Spiel.",
+    "category": "cards"
+  },
+  {
+    "id": 16,
+    "title": "Worms",
+    "description": "Eine Runde Worms am PC.",
+    "category": "games"
+  },
+  {
+    "id": 17,
+    "title": "Look at me",
+    "description": "Die Spieler schätzen die Anzahl der Views für folgende YouTube Videos.\n- Rick Astley 'Never gonna give you up'\n- Das aktuelleste Video von Mister Spex\n- Gordon Ramsay 'Dicing an Onion\n- Die Tagesschau von gestern\n- Warner Brothers 'Barbie Main Trailer'",
+    "category": "estimation"
+  },
+  {
+    "id": 18,
+    "title": "Tischhockey",
+    "description": "Ein Eishockey Puck wird in the Mitte des Tisches platziert. Die Spieler erhalten je einen Pokerchip und versuchen mittels schnipsen den Puck über die gegenüberliegende Tischkante zu bewegen.",
+    "category": "skill"
+  },
+  {
+    "id": 19,
+    "title": "Halten",
+    "description": "Wer sich länger an der Klimmzugstange halten kann, gewinnt.",
+    "category": "sports"
+  },
+  {
+    "id": 20,
+    "title": "Wie weit ist das?",
+    "description": "Mit einem Zufallszahlengenerator wird eine Zahl zwischen 100 und 1000 gerniert. Beide Spieler nennen zwei Städe in Europa (außerhalb Berlin/Brandenburg) mit dieser Zahl als Entfernung. Wer näher dran ist gewinnt die Runde. Es werden fünf Runden gespielt.",
+    "category": "estimation"
+  },
+  {
+    "id": 21,
+    "title": "Streichhölzer",
+    "description": "Es werden 0, 1, 2 oder 3 Streichhölzer von jedem Spielern in die Hand genommen. Jeder Spieler muss tippen, wie viele Streichhölzer die beiden Spielern zusammen in den Händen halten. Die Spieler entscheiden sich unter dem Tisch für ihre Anzahl an Streichhölzern. Wer zuerst 3 Punkte hat, gewinnt.",
+    "category": "cards"
+  },
+  {
+    "id": 22,
+    "title": "Pusteball",
+    "description": "Es wird ein Tischtennisball in der Mitte des Tisches platziert. Wer es schafft, den Ball über die Kante des Gegners zu pusten kriegt einen Punkt. Wer als erster 3 Punkte erzielt hat, gewinnt das Spiel.",
+    "category": "skill"
+  },
+  {
+    "id": 23,
+    "title": "Bechern",
+    "description": "6 Becher werden auf einer Tischseite im Dreieck aufgestellt. Die nächsten 3 Becher zum Spieler sind 1 Pkt., die nächsten zwei 2 Pkt und der entrfernteste 1 Pkt. Es wird abwechselnd ein TT-Ball geworfen, wobei der Ball einmal auf den Tisch aufkommen muss.. Wer zuerst 5 Punkte erzielt hat, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 24,
+    "title": "Qwixx",
+    "description": "Eine Runde Qwixx.",
+    "category": "games"
+  },
+  {
+    "id": 25,
+    "title": "Auswringen",
+    "description": "Es werden 2 identische Handtücher oder Geschirrtücher für mindestens 5 Minuten in Wasser getränkt. Wer nach 3 Minuten mehr Wasser ausgewrungen hat (d.h. wessen Handtuch weniger wiegt), gewinnt. Es sind keine Hilfsmittel erlaubt.",
+    "category": "sports"
+  },
+  {
+    "id": 26,
+    "title": "Zähler",
+    "description": "Jeder Spieler lädt die gleiche Zähl-App auf sein jeweiliges Telefon. Wer innerhalb von 2 Minuten die höhere Zahl erzielt, hat gewonnen.",
+    "category": "sports"
+  },
+  {
+    "id": 27,
+    "title": "Das Kartendeck",
+    "description": "Jeder Spieler entfernt aus einem sonst kompletten Kartenspiel (ohne Joker) eine einzelne Karte. Die Spieler tauschen dann die Kartendecks. Wer schneller die fehlende Karte findet, hat gewonnen. Rät man falsch, hat der Gegner gewonnen.",
+    "category": "cards"
+  },
+  {
+    "id": 28,
+    "title": "Wasser lassen",
+    "description": "Per Zufallsgenerator wird eine Zahl zwischen 100 und 1000 gewählt. Beide Spieler versuchen diese Grammzahl durch das Befüllen einer Flasche mit Wasser so genau wie möglich zu treffen. Wer als erster 3 Durchgänge für sich entschieden hat, gewinnt.",
+    "category": "estimation"
+  },
+  {
+    "id": 29,
+    "title": "Wortgewandt",
+    "description": "Die Spieler schätzen jeweils die Anzahl der Wörter in diesen Texten:\n- Wikipedia-Artikel über Berlin\n- Faust I. (Goethe)\n- Bedienungsanleitung Geschirrspüler\n- Bürgerliches Gesetzbuch\n- Aktuelle AGB Mister Spex",
+    "category": "estimation"
+  },
+  {
+    "id": 30,
+    "title": "Turmbau zu Berlin",
+    "description": "Jenga.",
+    "category": "games"
+  },
+  {
+    "id": 31,
+    "title": "Einfach, zweifach, dreifach",
+    "description": "Abwechselnd suchen die Spieler 3 Sachen raus, wobei das Zweite etwa die Hälfte des Ersten und das Dritte etwa in Drittel des Ersten sind. Die Differenz ist zwischen 10-25%.\nKann der Befragte das richtig beantworten gewinnt er einen Punkt, wenn nicht der Fragensteller.\nWer zuerst 3 Punkte hat gewinnt.",
+    "category": "estimation"
+  },
+  {
+    "id": 32,
+    "title": "Mikado",
+    "description": "Wer bei einer Runde Mikado mehr Stäbchen gesammelt hat, gewinnt.",
+    "category": "games"
+  },
+  {
+    "id": 33,
+    "title": "Sudoku",
+    "description": "Es wird online ein einfaches Sodoku rausgesucht. Wer dies schneller lösen kann gewinnt.",
+    "category": "games"
+  },
+  {
+    "id": 34,
+    "title": "Kniffel",
+    "description": "Eine Runde Kniffel.",
+    "category": "games"
+  },
+  {
+    "id": 35,
+    "title": "Flaschen",
+    "description": "Es werden pro Spieler 3 Flaschen mit 0; 0,5l; 1l Inhalt auf den Boden gelegt (nicht aufrecht!). Wer die Flaschen schneller nur mit Hilfe seiner Füße aufstellt, gewinnt. Es wird Best-of-Three gespielt.",
+    "category": "skill"
+  },
+  {
+    "id": 36,
+    "title": "Spaghetti",
+    "description": "Es wird ein Spaghetto auf ein Glas oder Becher gelegt. Auf ein Countdown-Signal versuchen beide die Nudel zu greifen. Wer hinterher das längere Stück in der Hand hat, gewinnt den Durchgang. Wer zuerst 3 Durchgänge gewinnt, gewinnt das Spiel.",
+    "category": "skill"
+  },
+  {
+    "id": 37,
+    "title": "Stapelchips",
+    "description": "Die Spieler versuchen einen Stapel Pokerchips horizontal zwischen den Zeigefingern zu halten. Der Stapel muss 30 Sekunden lang gehalten werden. Begonnen wird mit 10 Chips. Pro Runde kommen 5 weitere hinzu.",
+    "category": "skill"
+  },
+  {
+    "id": 38,
+    "title": "Look at me",
+    "description": "Die Spieler schätzen die Anzahl der Views für folgende YouTube Videos.\n- Rick Astley 'Never gonna give you up'\n- Das aktuelleste Video von Mister Spex\n- Gordon Ramsay 'Dicing an Onion\n- Die Tagesschau von gestern\n- Warner Brothers 'Barbie Main Trailer'",
+    "category": "estimation"
+  },
+  {
+    "id": 39,
+    "title": "Mario Party",
+    "description": "Wer bei einer Runde Mario Party mehr Sterne eingesammelt hat, gewinnt. Bei Gleichstand entscheiden die Münzen.",
+    "category": "games"
+  },
+  {
+    "id": 40,
+    "title": "Situps",
+    "description": "Wer innerhalb von 5 Minuten mehr situps schafft.",
+    "category": "sports"
+  },
+  {
+    "id": 41,
+    "title": "Kenne die Deutschen",
+    "description": "Wie viel konsumieren die Deutschen pro Jahr?\n- Kartoffeln\n- Kaffee\n- Bier\n- Milch\n- Butter",
+    "category": "estimation"
+  },
+  {
+    "id": 42,
+    "title": "Der springende Punkt",
+    "description": "Es wird ein Glas in 10 cm Entfernung aufgestellt. Jeder Spieler nimmt einen Tischtennisball und lässt ihn zunächst einmal auf dem Tisch aufkommen, bevor er ins Glas geht. Bei einem Treffer wird das Glas 10cm weiter weg gestellt. Wer als erstes das Glas bei 50cm erfolgreich trifft, hat gewonnen.",
+    "category": "skill"
+  },
+  {
+    "id": 43,
+    "title": "Trinken",
+    "description": "Es wird pro Spieler je eine volle Wasserflasche benötigt. Jeder der Spieler trinkt mit verbundenen Augen einen halben Liter ab. Wer näher dran ist, gewinnt.",
+    "category": "estimation"
+  },
+  {
+    "id": 44,
+    "title": "Pokerchips",
+    "description": "Jeder Spieler erhält 10 Pokerchips. Der Chip wird auf der Tischkante aufgelegt und versucht in ein 10-15 cm entferntes Glas zu schnipsen. Es wird abwechselnd gespielt. Wer mehr Treffer erzielt, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 45,
+    "title": "Mäxchen",
+    "description": "Klassisches Mäxchen. Wer zuerst 3 Durchgänge für sich entschieden hat, gewinnt das Spiel.",
+    "category": "cards"
+  },
+  {
+    "id": 46,
+    "title": "Fangen",
+    "description": "Jeder Spieler erhält 2 Tischtennisbälle. Diese muss er fallen lassen, einmal auf dem Boden aufkommen lassen und mit der gleichen Hand auch wieder fangen.\n\nWer als erster die Aufgabe schafft, ohne dass es der Gegner auch tut, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 47,
+    "title": "Boule",
+    "description": "Eine Runde Mini-Boule im Park.",
+    "category": "games"
+  },
+  {
+    "id": 48,
+    "title": "Zahlenschloss",
+    "description": "Ein Spieler stellt bei einem Zahlenschloss mit drei Ziffern eine zufällige Zahl ein, bei der jede Ziffer nur einmal vorkommen darf. Der Gegner versucht das Schloss so schnell wie möglich zu knacken. Die schnellere Zeit gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 49,
+    "title": "Bleistift anspitzen",
+    "description": "Jeder Spieler erhält einen Bleistift und einen Anspitzer. Wer zuerst den Bleistift so weit angespitzt hat, dass eine festgelegte Markierung nicht mehr zu sehen ist, gewinnt.",
+    "category": "sports"
+  },
+  {
+    "id": 50,
+    "title": "Radierer",
+    "description": "Jeder Spieler erhält einen identischen Radiergummi. Wer seinen Radiergummi zuerst auf einem Blatt Papier so weiter benutzt hat, dass eine vorher festgelegte Markierung nicht mehr zu sehen ist, gewinnt.",
+    "category": "sports"
+  },
+  {
+    "id": 51,
+    "title": "Hochwerfen",
+    "description": "Im Park such man einen möglichst waagerechten Ast. Jeder Spieler hat einen Ball und wirft diesen über den Ast und fängt ihn wieder auf.\nWer als erster die Aufgabe schafft, ohne dass es der Gegner auch tut, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 52,
+    "title": "Erbsenzähler",
+    "description": "Jeder Spieler erhält 10 Erbsen und versucht diese in eine 2 Meter entfernt aufgestellte Flasche zu werfen. Es wird abwechselnd geworfen. Wer mehr Treffer erzielt hat, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 53,
+    "title": "Löffelkatapult",
+    "description": "Mit Hilfe eines Esslöffels wird abwechselnd versucht ein Stück Würfelzucker (oder ein Würfel) in eine Schale zu katapultieren. Wer nach 10 Versuchen mehr Treffer erzielt hat, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 54,
+    "title": "Kaffeezeit",
+    "description": "Aus 1 Meter Höhe wird ein Kaffeelöffel in eine Kaffeetasse fallen gelassen.\n\nWer als erster die Aufgabe schafft, ohne dass es der Gegner auch tut, gewinnt.",
+    "category": "skill"
+  },
+  {
+    "id": 55,
+    "title": "Kartenhaus",
+    "description": "Jeder Spieler versucht mit einem Deck Karten ein möglichst hohes Kartenhaus zu bauen. Nach Ablauf der 10 Minuten muss das Kartenhaus mindestens 10 Sekunden eigenständig stehen bleiben. ",
+    "category": "skill"
+  },
+  {
+    "id": 56,
+    "title": "Peng",
+    "description": "Jeder erhält einen Luftballon. Wer ihn schneller durch Aufpusten zum Platzen bringt, gewinnt.",
+    "category": "sports"
+  },
+  {
+    "id": 57,
+    "title": "Suchmaschine",
+    "description": "Beide Spieler schätzen die Anzahl der Treffer für folgende Suchbegriffe:\n- Möllendorff\n- Klara Franke\n- Gecko\n- Heizung\n- Schneemobil",
+    "category": "estimation"
+  },
+  {
+    "id": 58,
+    "title": "Knoten",
+    "description": "Jeder Spieler erhält ein Seil und versucht innerhalb 1 Minute so viele Knoten wie möglich reinzumachen. Danach werden die Seile getauscht und wer schneller alle Knoten gelöst hat, gewinnt.",
+    "category": "skill"
   }
 ]
