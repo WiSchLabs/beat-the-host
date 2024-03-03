@@ -78,6 +78,14 @@ const store = createStore({
                 }
             }
         },
+        resetGame(state) {
+            state.currentChallengeNumber = 0;
+            state.currentChallenge = null;
+            for (const player of state.players) {
+                player.challengesWon = []
+                player.score = 0
+            }
+        },
     }
 })
 
