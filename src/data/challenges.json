@@ -346,5 +346,11 @@
     "title": "Knoten",
     "description": "Jeder Spieler erhält ein Seil und versucht innerhalb 1 Minute so viele Knoten wie möglich reinzumachen. Danach werden die Seile getauscht und wer schneller alle Knoten gelöst hat, gewinnt.",
     "category": "skill"
+  },
+  {
+    "id": 59,
+    "title": "Farkle",
+    "description": "Es wird mit 6 Würfeln gespielt. Man ist so lange dran wie man Punkte erwürfelt oder man freiwilig aufhört. Ergibt ein Wurf keine Punkte, sind alle Punkte dieser Runde verloren.\n5 = 50, 1 = 100, 1+1+1 = 1000, 2+2+2 = 200, etc.\nWer zuerst auf 10.000 Punkte kommt hat gewonnen.",
+    "category": "games"
   }
 ]
